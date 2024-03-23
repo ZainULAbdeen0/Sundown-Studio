@@ -13,9 +13,9 @@
   .page3-image {
     display: block;
     height: 70vh;
-    max-width:400px;
+    max-width: 400px;
     border-radius: 10px;
-    background-image: url();
+    background-image: url(./image1.webp);
     background-size: cover;
     background-position: center;
   }
@@ -38,37 +38,120 @@
     position: relative;
     z-index: 3;
     display: flex;
-    padding-top:1vw;
+    padding-top: 1vw;
     gap: 0.5em;
     flex-direction: column;
   }
   .txt-i {
     text-align: left;
   }
+  #footer #f1 #f1-h2 {
+    font-size: 3vw;
+  }
 }
 
-@media (max-width: 778px){
-
-   #nav-cover{
+@media (max-width: 778px) {
+  #nav-cover {
     top: 0%;
     display: block;
-    }
-    #nav-cover-opt {
-      display:block;
-      top: 0%;
-      left:0%;
-                 
-    }
-    nav h3 {
-      display: block;
-    }
-     
-    #nav2 {
-      display: none;
-      
-    }
-    nav img{
-      scale: 0.8;
-    }
+  }
+  #nav-cover-opt {
+    display: block;
+    top: 0%;
+    left: 0%;
+  }
+  nav h3 {
+    display: block;
+  }
+
+  #nav2 {
+    display: none;
+  }
+  nav img {
+    scale: 0.8;
+  }
+  #hero-section {
+    flex-direction: column-reverse;
+    height: 90vh;
+    gap: 5vw;
+    justify-content: flex-start;
+    padding-bottom: 10vw;
     
+  }
+  #left p{
+    width: 60%;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+  }
+  #right{
+    letter-spacing:-3px;
+    position: absolute;
+    top: 20px;
+    font-size:7vw;
+    line-height:13vw;
+  }
+
+  .swiper-slide:nth-child(n) {
+    width: 70%;
+    height: 35vh;
+  }
+  
+  #pg4-uper {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  #pg4-uper img {
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+  }
+  #pg4-uper #l-txt{
+    width: 100%;
+  }
+  #pg4-uper #l-txt #h1s{
+    width: 60%;
+
+  }
+  
+#pg2-bottom {
+  display: flex;
+  flex-direction:column;
+
+}
+#pg2-bottom h1 {
+  font-size: 2rem;
+  width: 100%;
+ 
+}
+#bottom-p {
+  width: 60%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6vw;
+  margin-right: 3vw;
+  z-index:4;
+}
+
+#bottom-p img {
+  width: 90%;
+  border-radius: 15px;
+}
+#circl {
+  width: 50vw;
+  height: 50vw;
+}
+#footer{
+  height: 80vh;
+}
+#page5{
+  height: 80vh;
+}
+#footer #f1 #f1-h2 {
+  font-size: 4vw;
+}
 }

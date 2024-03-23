@@ -1,7 +1,7 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#main'),
+//     smooth: true
+// });
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -40,12 +40,12 @@ function swipeContainer(){
       });
 }
 
-function init(){
-    images.forEach(function(e){
-        var Url=e.getAttribute("data-imu");
-        e.style.backgroundImage= `url(${Url})`;
-    });
-}
+// function init(){
+//     images.forEach(function(e){
+//         var Url=e.getAttribute("data-imu");
+//         e.style.backgroundImage= `url(${Url})`;
+//     });
+// }
 var black=document.querySelector('.nav-cove');
 var nav=document.querySelector('.nav-cover-op');
 var button=document.querySelector('#menu-btn');
@@ -60,7 +60,6 @@ var button=document.querySelector('#menu-btn');
         }
        
     });
-console.log(black + nav);
 
 swipeContainer();
 hoverImageEffect();
