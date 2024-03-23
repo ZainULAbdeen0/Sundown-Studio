@@ -2,8 +2,6 @@
 //     el: document.querySelector('#main'),
 //     smooth: true
 // });
-
-
 document.addEventListener('DOMContentLoaded', function() {
 var box=document.querySelector('#img-box');
 var wrapper=document.querySelector('#main-hover');
